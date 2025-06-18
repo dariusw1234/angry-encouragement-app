@@ -1,0 +1,85 @@
+.home-image {
+  width: 275px;
+  height: 275px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 1000px;
+  border: 5px solid rgba(255, 136, 145, 0.8);
+}
+
+.shout-image {
+  width: 275px;
+  height: 275px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 1000px;
+  border: 5px solid rgba(255, 136, 145, 0.8);
+}
+
+.main-container {
+  max-width: 640px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+body {
+  background: linear-gradient(180deg, #ffca38, #facb30, #f9930e, #ff6f31, #fd0000);
+}
+
+form {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+  color: rgba(188, 0, 0, 0.8);
+  text-align: center;
+  font-size: 100px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+label {
+  opacity: 0.8;
+}
+
+input {
+  background-color: aliceblue;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 48px;
+  text-align: center;
+}
+
+button {
+  background-color: rgb(220, 182, 134);
+  border-radius: 48px;
+  margin-bottom: 15px;
+}
+
+.chat-response {
+  color: white;
+  opacity: 0.8;
+  font-size: 25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+.link-home {
+  text-align: center;
+  font-size: 25px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  opacity: 0.8;
+}

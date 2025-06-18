@@ -1,8 +1,10 @@
 <h1>Take this!</h1>
 
-<%= @chat_response %>
+<img src="/images/shout-image.jpg" class="shout-image">
 
-<p> </p>
+<div class="chat-response">
+  <em><%= @chat_response %></em>
+</div>
 
 <form action="/response">
   <div>
@@ -15,7 +17,6 @@
     <button>GOOO</button>
   </div>
 </form>
-
-<p> </p>
-
-<a href="/home">Please, I've had enough...</a>
+<div class="link-home">
+  <a href="/home">Please, I've had enough...</a>
+</div>
