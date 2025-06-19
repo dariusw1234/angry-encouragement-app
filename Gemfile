@@ -5,7 +5,7 @@ ruby "3.2.1"
 
 gem "sinatra"
 gem "sinatra-contrib"
-
+gem "ruby-openai"
 
 # Use Puma as the app server
 gem "puma", "~> 5.0"
@@ -38,5 +38,3 @@ group :test do
   gem "webdrivers"
   gem "i18n"
 end
-
-gem "openai"
